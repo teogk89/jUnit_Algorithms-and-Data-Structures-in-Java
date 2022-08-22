@@ -22,7 +22,7 @@ public class CompressString {
      * @param str the input string consisting on only alphabets
      * @return the compressed string
      */
-    private static String compress(String str) {
+    public static String compress(String str) {
         // some basic validation
         if (str.length() == 0) {
             throw new IllegalArgumentException("Empty String");
